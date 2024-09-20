@@ -1,0 +1,36 @@
+.info-widget, .cell {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  section h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #495057;
+  }
+  
+  .row.justify-content-center .cell {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .container .row .col-12 {
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 575.98px) {
+    .row > .col-xs-4 {
+      display: inline-block;
+      width: 33%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .offset-xl-3 {
+      margin-left: 25% !important;
+    }
+  }
+  
